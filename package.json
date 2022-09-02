@@ -16,6 +16,6 @@
     "type": "git"
   },
   "dependencies": {
-    "cn.unity.hairfx.core": "https://github.com/Unity-China/cn.unity.hairfx.core.git"
+    "cn.unity.hairfx.core": "https://github.com/Unity-China/cn.unity.hairfx.core.git#v0.9.0"
   }
 }
