@@ -22,6 +22,7 @@ Declare the package and its dependencies as git dependencies in `Packages/manife
 
 ```
 "dependencies": {
+    "cn.unity.hairfx.core": "https://github.com/Unity-China/cn.unity.hairfx.core.git",
     "cn.unity.hairfx.urp": "https://github.com/Unity-China/cn.unity.hairfx.urp.git",
     ...
 }
