@@ -1,6 +1,6 @@
 {
   "name": "cn.unity.hairfx.urp",
-  "description": "The Unity HairFX Shaders for Universal Render Pipeline (URP)\n\nSupport Platforms:\nFrom mobile to high-end consoles and PC.\n\nPrerequisite\r:\nURP/HDRP version 12.x.x & Unity Editor version 2021.2.x  or Newer",
+  "description": "The Unity HairFX Shaders for Universal Render Pipeline (URP)\n\nSupport Platforms:\nFrom mobile to high-end consoles and PC.\n\nPrerequisite\r:\nURP version 12.x.x & Unity Editor version 2021.2.x  or Newer",
   "version": "0.9.0",
   "unity": "2021.2",
   "displayName": "HairFX Universal RP",
