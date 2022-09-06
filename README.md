@@ -38,4 +38,5 @@ Currently not supports Huawei mobile phones due to some device does not support 
 
 ## Related links
 [HairFX Core](https://github.com/Unity-China/cn.unity.hairfx.core)
+
 [AMD TressFX](https://github.com/GPUOpen-Effects/TressFX)
