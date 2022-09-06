@@ -15,7 +15,7 @@ This Package included a Custom Hair ShaderGraph Shader supports for Universal Re
 ## Note
 
 - This Package included a Custom Hair ShaderGraph Shader for URP only.
-- This Package required a dependency: [cn.unity.hairfx.core](https://github.com/Unity-China/cn.unity.hairfx.core)
+- This Package required a dependency: [HairFX Core](https://github.com/Unity-China/cn.unity.hairfx.core) package
 
 ## Usage
 
@@ -37,6 +37,4 @@ If you build this hair system to mobile platform, please try to limit the total 
 Currently not supports Huawei mobile phones due to some device does not support StructuredBuffer for vertex program in shader
 
 ## Related links
-[HairFX Core](https://github.com/Unity-China/cn.unity.hairfx.core)
-
 [AMD TressFX](https://github.com/GPUOpen-Effects/TressFX)
