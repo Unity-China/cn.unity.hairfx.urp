@@ -4,7 +4,7 @@ The Unity HairFX Custom Hair ShaderGraph Shader for Universal Render Pipeline (U
 ## Requirements
 
 - Unity 2021.2.13f1 +
-- Universal 12.1.4 +
+- Universal Render Pipeline 12.1.4 +
 
 
 ## Features
@@ -14,7 +14,8 @@ This Package included a Custom Hair ShaderGraph Shader supports for Universal Re
 
 ## Note
 
-- （URP only）This Package included a Custom Hair Shader for ShaderGraph.
+- This Package included a Custom Hair ShaderGraph Shader for URP only.
+- This Package required a dependency: [cn.unity.hairfx.core](https://github.com/Unity-China/cn.unity.hairfx.core)
 
 ## Usage
 
@@ -37,3 +38,4 @@ Currently not supports Huawei mobile phones due to some device does not support 
 
 ## Related links
 [HairFX Core](https://github.com/Unity-China/cn.unity.hairfx.core)
+[AMD TressFX](https://github.com/GPUOpen-Effects/TressFX)
