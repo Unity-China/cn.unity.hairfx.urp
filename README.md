@@ -16,6 +16,7 @@ This Package included a Custom Hair ShaderGraph Shader supports for Universal Re
 
 - This Package included a Custom Hair ShaderGraph Shader for URP only.
 - This Package required a dependency: [HairFX Core](https://github.com/Unity-China/cn.unity.hairfx.core) package
+- URP Defender Character Demo Project [here](https://github.com/UnityTechnologies/URP-Defender-Character-Demo)
 
 ## Usage
 
