@@ -16,7 +16,7 @@
     "type": "git"
   },
   "dependencies": {
-    "com.unity.render-pipelines.universal": "12.1.4",
-    "cn.unity.hairfx.core": "https://github.com/Unity-China/cn.unity.hairfx.core.git"
+    "cn.unity.hairfx.core": "https://github.com/Unity-China/cn.unity.hairfx.core.git",   
+    "com.unity.render-pipelines.universal": "12.1.4"
   }
 }
