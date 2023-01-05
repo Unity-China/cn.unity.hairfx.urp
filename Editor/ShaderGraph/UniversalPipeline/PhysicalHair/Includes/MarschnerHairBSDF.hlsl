@@ -321,7 +321,7 @@ half4 LightingHairFX(MarschnerHairSurfaceData hairSurfaceData, SurfaceData surfa
     half4 shadowMask = CalculateShadowMask(inputData);
     
     AmbientOcclusionFactor aoFactor = CreateAmbientOcclusionFactor(inputData, surfaceData);
-#if UNITY_VERSION > 202210
+#if UNITY_VERSION > 202220
     uint meshRenderingLayers = GetMeshRenderingLayer();
 #else
     uint meshRenderingLayers = GetMeshRenderingLightLayer();
