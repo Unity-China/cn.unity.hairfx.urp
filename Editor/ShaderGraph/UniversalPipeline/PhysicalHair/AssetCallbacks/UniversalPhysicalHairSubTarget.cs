@@ -5,7 +5,7 @@
  * Need _LightDirection and float3 _LightPosition variables in VertexStrandsGroom.hlsl or HairStrands.hlsl which it is vertex program, 
  * so added a custom keyword with the modified Varyings.hlsl.
  *
- * This Shader should work with 2021.3 to 2022.2 (2022.3 has not released yet)
+ * This Shader should work with 2021.3 to 2022.3
 */
 
 using System;
@@ -30,11 +30,17 @@ namespace UnityEditor.Rendering.Universal.ShaderGraph
 
         [SerializeField]
         NormalDropOffSpace m_NormalDropOffSpace = NormalDropOffSpace.Tangent;
-        
+
 #if UNITY_2022_2_OR_NEWER
+    #if UNITY_2022_3_OR_NEWER
+        static PragmaCollection DOTSForward = CorePragmas.Forward;
+        static PragmaCollection DOTSInstanced = CorePragmas.Instanced;
+        static PragmaCollection DOTSDefault = CorePragmas.Default;
+    #else
         static PragmaCollection DOTSForward   = CorePragmas.ForwardSM45;
         static PragmaCollection DOTSInstanced = CorePragmas.InstancedSM45;
         static PragmaCollection DOTSDefault   = CorePragmas.DefaultSM45;
+    #endif
 #else
         static PragmaCollection DOTSForward   = CorePragmas.DOTSForward;
         static PragmaCollection DOTSInstanced = CorePragmas.DOTSInstanced;
