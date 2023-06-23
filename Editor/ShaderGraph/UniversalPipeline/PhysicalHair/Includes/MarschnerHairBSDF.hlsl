@@ -316,11 +316,12 @@ half4 LightingHairFX(MarschnerHairSurfaceData hairSurfaceData, SurfaceData surfa
     }
 #endif
 
-    BSDFData bsdfData = ConvertSurfaceDataToBSDFData(hairSurfaceData, surfaceData);
-    
-    half4 shadowMask = CalculateShadowMask(inputData);
-    
+    // ShaderGraph Unlit includes SSAO in 2022.3
+    // Add AO to surfaceData before convert to BSDFData
     AmbientOcclusionFactor aoFactor = CreateAmbientOcclusionFactor(inputData, surfaceData);
+    BSDFData bsdfData = ConvertSurfaceDataToBSDFData(hairSurfaceData, surfaceData);
+    half4 shadowMask = CalculateShadowMask(inputData);
+
 #if UNITY_VERSION > 202220
     uint meshRenderingLayers = GetMeshRenderingLayer();
 #else
