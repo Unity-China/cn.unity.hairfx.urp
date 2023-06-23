@@ -316,7 +316,7 @@ half4 LightingHairFX(MarschnerHairSurfaceData hairSurfaceData, SurfaceData surfa
     }
 #endif
 
-    // ShaderGraph Unlit includes SSAO in 2022.3
+    // ShaderGraph Unlit includes SSAO keyword already in 2022.3
     // Add AO to surfaceData before convert to BSDFData
     AmbientOcclusionFactor aoFactor = CreateAmbientOcclusionFactor(inputData, surfaceData);
     BSDFData bsdfData = ConvertSurfaceDataToBSDFData(hairSurfaceData, surfaceData);
